@@ -8,7 +8,7 @@ export default function createMarkupOfCountryCard(countries, selector) {
         ` <h1> <img style="margin-right:10px;"
             src="${flags.svg}" 
             alt="${name.official}"
-            width="30">
+            width="40">
         ${name.official}
     </h1>
     <ul class="country-info__list">
