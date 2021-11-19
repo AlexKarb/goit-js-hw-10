@@ -22,4 +22,4 @@ var t,o=arguments[3];!function(o,i){"function"==typeof t&&t.amd?t([],function(){
 },{"notiflix/build/notiflix-notify-aio":"MeeU","./cleaning-container":"Dr1l"}],"Focm":[function(require,module,exports) {
 "use strict";require("./css/styles.css");var e=n(require("lodash.debounce")),r=n(require("./js/fetchCountries")),t=n(require("./js/cleaning-container")),u=n(require("./js/draw-the-found-countries")),s=n(require("./js/search-error"));function n(e){return e&&e.__esModule?e:{default:e}}const a=300,c=document.querySelector("#search-box");c.addEventListener("input",(0,e.default)(e=>{e.preventDefault();let n=c.value.trim();if(n)return(0,r.default)(n).then(u.default).catch(s.default);(0,t.default)()},300));
 },{"./css/styles.css":"krre","lodash.debounce":"PZFh","./js/fetchCountries":"irxn","./js/cleaning-container":"Dr1l","./js/draw-the-found-countries":"FGlB","./js/search-error":"l72Y"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.6d11549d.js.map
+//# sourceMappingURL=/goit-js-hw-10/src.6d11549d.js.map
